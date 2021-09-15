@@ -1,0 +1,29 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: aqua;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#time {
+  font-size: 5rem;
+  font-weight: 600;
+  color: white;
+}
+
+#date {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  font-weight: 600;
+  color: white;
+}
