@@ -1,14 +1,20 @@
+@font-face {
+  font-family: "ledfont";
+  src: url("./ledfont.ttf");
+}
+
 body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background-color: aqua;
+  background-color: black;
+  font-family: "ledfont";
 }
 
 .container {
   width: 400px;
   height: 400px;
-  background-color: blueviolet;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,13 +22,13 @@ body {
 }
 
 #time {
-  font-size: 5rem;
+  font-size: 10rem;
   font-weight: 600;
   color: white;
 }
 
 #date {
-  font-size: 1.3rem;
+  font-size: 3rem;
   margin-top: 20px;
   font-weight: 600;
   color: white;
